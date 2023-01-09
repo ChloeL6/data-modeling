@@ -22,7 +22,7 @@ In this repo, I'm trying to create data model and ETL pipeline for the tickets.j
 The data is used for this project can be found under [`data/tickets.json`](./data/tickets.json)
 
 This is the data model for ticket folder.
-<img src="/mnt/c/Users/Owner/Desktop/Data-engineer/Independent-Project/data-modeling/img/Data modeling.drawio (1).png" alt="Data model of tickets file" />
+<img src="./img/Data_modeling.png" alt="Data model of tickets file" />
 
 ## Setup/Installation Requirements
 
