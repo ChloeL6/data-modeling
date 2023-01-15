@@ -21,8 +21,16 @@ In this repo, I'm trying to create data model and ETL pipeline for the tickets.j
 
 The data is used for this project can be found under [`data/tickets.json`](./data/tickets.json)
 
-This is the data model for ticket folder.
+ERD (Entity Relationship Diagram) and a summary of the ETL process are shown below.
+
+* ERD
 <img src="./img/Data_modeling.png" alt="Data model of tickets file" />
+
+* ETL process for dimension tables and fact table
+<img src="./img/Load_dims.jpg" alt="Load dim tables process" />
+
+<img src="./img/load_facts.jpg" alt="Load fact table process" />
+
 
 ## Setup/Installation Requirements
 
@@ -33,7 +41,7 @@ This is the data model for ticket folder.
     * source venv/bin/activate
     * pip install -r requirements.txt
     * code .
-* After VS Code open, go to main.ipynb to see codes for creating datasets and table
+* After VS Code open, go to load_dims.ipynb or load_facts.ipynb to see codes for creating and loading table to BigQuery
 
 ## Known Bugs
 
